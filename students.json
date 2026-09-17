@@ -1,0 +1,68 @@
+{
+    "Ananta": {
+        "English": 86.0,
+        "Maths": 85.0,
+        "OOPs": 96.0
+    },
+    "Aditi": {
+        "OS": 89.0
+    },
+    "Rohan": {
+        "Maths": 78.0,
+        "Physics": 82.0,
+        "Chemistry": 74.0
+    },
+    "Priya": {
+        "English": 91.0,
+        "OS": 88.0,
+        "DBMS": 95.0
+    },
+    "Karan": {
+        "Maths": 67.0,
+        "OOPs": 72.0
+    },
+    "Simran": {
+        "English": 79.0,
+        "Physics": 85.0,
+        "DBMS": 90.0,
+        "OS": 83.0
+    },
+    "Arjun": {
+        "Chemistry": 65.0,
+        "Maths": 70.0
+    },
+    "Meera": {
+        "OOPs": 93.0,
+        "DBMS": 87.0,
+        "English": 88.0
+    },
+    "Vikram": {
+        "OS": 76.0,
+        "Physics": 80.0
+    },
+    "Divya": {
+        "Maths": 92.0,
+        "Chemistry": 89.0,
+        "English": 94.0,
+        "OOPs": 91.0
+    },
+    "Rahul": {
+        "DBMS": 68.0,
+        "OS": 71.0
+    },
+    "Neha": {
+        "Physics": 77.0,
+        "Maths": 81.0,
+        "OOPs": 84.0
+    },
+    "ishaan": {
+        "maths": 32.0,
+        "s": 21.0,
+        "dbs'": 21.0,
+        "engkish'1": 1.0,
+        "d": 1.0
+    },
+    "sadaam": {
+        "a": 100.0
+    }
+}
