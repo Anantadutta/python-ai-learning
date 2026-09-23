@@ -1,0 +1,105 @@
+﻿=== Retrieval hit-rate (answer present in top-K chunks) ===
+PASS  sim=0.79  How many casual leaves do I get per year?
+PASS  sim=0.83  What's the process for claiming travel reimbursement?
+PASS  sim=0.75  How many sick leaves am I entitled to?
+PASS  sim=0.71  When do I need to submit a medical certificate?
+PASS  sim=0.76  How much earned leave can I carry forward?
+PASS  sim=0.83  How long is maternity leave?
+PASS  sim=0.73  What is the paternity leave entitlement?
+PASS  sim=0.84  What is the deadline for submitting expense claims?
+PASS  sim=0.71  Do I need a receipt for a 300 rupee taxi?
+PASS  sim=0.77  How soon are reimbursements paid?
+PASS  sim=0.66  What is the per km rate if I use my car?
+PASS  sim=0.77  How often do I need to change my password?
+PASS  sim=0.73  I lost my laptop, what should I do?
+PASS  sim=0.82  How long is the probation period?
+PASS  sim=0.67  What time should I arrive on my first day?
+PASS  sim=0.77  How many days a week must I come to office?
+PASS  sim=0.74  What is the notice period for a G5 employee?
+PASS  sim=0.75  What is the referral bonus for a G4 hire?
+PASS  sim=0.67  Can I accept a gift from a vendor?
+PASS  sim=0.78  How do I report a phishing email?
+PASS  sim=0.68  What is the learning allowance?
+PASS  sim=0.69  When is salary credited?
+PASS  sim=0.72  How many optional holidays can I take?
+PASS  sim=0.78  What is the home office allowance?
+PASS  sim=0.80  How do I connect to the VPN?
+FAIL  sim=0.77  What is the hotel limit for a G4 employee in Mumbai?
+
+Hit-rate: 25/26 = 96%
+
+=== Out-of-scope similarity (should be BELOW the gate) ===
+sim=0.56  What is the capital of Australia?
+sim=0.51  Write me a poem about the monsoon.
+sim=0.67  What is Infosys's leave policy?
+sim=0.51  How do I cook biryani?
+Tip: set MIN_SIMILARITY between the lowest in-scope and highest out-of-scope scores.
+
+=== End-to-end answers ===
+PASS  How many casual leaves do I get per year?
+      -> You are entitled to **12 days of casual leave per calendar year** (credited in full on 1ΓÇ»January) [p.ΓÇ»56].
+PASS  What's the process for claiming travel reimbursement?
+      -> **Process for claiming travel reimbursement**
+
+1. **Ensure the Travel Request was approved** on ZEP before the trip.  
+2. **Within 30 days of returning** from t
+PASS  How many sick leaves am I entitled to?
+      -> You are entitled to **10 days of sick leave per year**.  
+[ExcerptΓÇ»1 | pageΓÇ»56]  
+[ExcerptΓÇ»3 | pageΓÇ»7]
+PASS  When do I need to submit a medical certificate?
+      -> You must submit a medical certificate for sick leave that lasts **more than 2 consecutive days**.  
+The certificate must be uploaded to the Zenith People Portal
+PASS  How much earned leave can I carry forward?
+      -> Earned leave can be carried forward up to **45 days** (any balance above 45 days on 31ΓÇ»December lapses)πÇÉExcerptΓÇ»5 | pageΓÇ»7πÇæπÇÉExcerptΓÇ»1 | pageΓÇ»56πÇæ
+PASS  How long is maternity leave?
+      -> Maternity leave is 26ΓÇ»weeks for the first two children, and 12ΓÇ»weeks from the third child onwards.  
+[ExcerptΓÇ»1 | pageΓÇ»7]
+PASS  What is the paternity leave entitlement?
+      -> Paternity leave entitlement: 10 working days of paid leave, to be taken within 3ΓÇ»months of the birth or adoption of a child. [p. 5]
+PASS  What is the deadline for submitting expense claims?
+      -> The deadline for submitting expense claims is **30 days** from the date the expense was incurred (or from the return date of a trip). Claims submitted between 3
+PASS  Do I need a receipt for a 300 rupee taxi?
+      -> No receipt is required for a Γé╣300 taxi fare.  
+Receipts are required only for expenses of Γé╣500 or more; for amounts below Γé╣500 a selfΓÇædeclaration is accepted, u
+PASS  How soon are reimbursements paid?
+      -> Reimbursements are paid within **10 working days of Finance approval**. [p. 14]
+PASS  What is the per km rate if I use my car?
+      -> The perΓÇækm rate for using your own car is **INRΓÇ»12 per km**πÇÉp. 57πÇæ.
+PASS  How often do I need to change my password?
+      -> You must change your password every **90 days**πÇÉp. 57πÇæ.
+PASS  I lost my laptop, what should I do?
+      -> Report the loss to the IT Service Desk within 2ΓÇ»hours and file a police report within 24ΓÇ»hours. Then submit the ITΓÇæ04 Lost Device Report form on the IT portal a
+PASS  How long is the probation period?
+      -> The probation period is **six months** from the employeeΓÇÖs date of joining, and it can be extended once by up to **three additional months** if required. [p. 3]
+PASS  What time should I arrive on my first day?
+      -> You should arrive at **9:30ΓÇ»AM** at the office reception on your first day. [p.ΓÇ»58]
+PASS  How many days a week must I come to office?
+      -> You must work from the office **at least 3 days per week, with Tuesday to Thursday as anchor days**πÇÉExcerptΓÇ»1 | pageΓÇ»58πÇæ.
+PASS  What is the notice period for a G5 employee?
+      -> The notice period for a confirmed G5 employee is **60 days**πÇÉp. 25πÇæ.
+PASS  What is the referral bonus for a G4 hire?
+      -> The referral bonus for a G4 hire is **INRΓÇ»50,000** after the referred employee completes 90 days of service. [p. 4]
+PASS  Can I accept a gift from a vendor?
+      -> Yes ΓÇô you may accept a gift of nominal value **up to INRΓÇ»2,000** from a vendor. Gifts above that amount must be declared to compliance within 5 days and may nee
+PASS  How do I report a phishing email?
+      -> Use the **ReportΓÇ»Phishing** button in ZenithΓÇ»Mail to report a phishing email. [p.ΓÇ»57]
+PASS  What is the learning allowance?
+      -> The learning allowance is **INRΓÇ»25,000 per financial year** for courses, certifications and conferences relevant to an employeeΓÇÖs role, preΓÇæapproved by the mana
+PASS  When is salary credited?
+      -> Salary is credited on the last working day of each month. [p. 4]
+PASS  How many optional holidays can I take?
+      -> You can take **2 optional holidays per year**.  
+- This is stated in the FAQ: ΓÇ£How many optional holidays can I take?ΓÇ»A:ΓÇ»2 per year, chosen from your office's l
+PASS  What is the home office allowance?
+      -> The home office allowance is **INRΓÇ»15,000** in the employeeΓÇÖs first year. [p.ΓÇ»9]
+PASS  How do I connect to the VPN?
+      -> To connect to the VPN, follow these steps:
+
+1. Open the GlobalConnect client.  
+2. Enter **vpn.zenithcorp.example** as the portal if prompted.  
+3. Sign in with
+FAIL  What is the hotel limit for a G4 employee in Mumbai?
+      -> I couldn't find this in Zenith Corp's policy documents. Please contact the HR Helpdesk (hr-helpdesk@zenithcorp.example, ext. 2100) or the IT Service Desk (ext. 
+
+Answer accuracy: 25/26   Correct refusals: 4/4
